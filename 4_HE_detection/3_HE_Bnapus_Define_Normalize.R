@@ -60,4 +60,4 @@ for (i in seq_along(id_new[[1]])) {
 df_tidy_log2 <- bind_cols(df_large_name,output)
 
 ### Get the log transformed HE value for each homoeologous gene pairs
-write_csv(df_tidy_log2,file = "df_tidy_log2_new_202403_he15_dep0375_15.csv")
+write_csv(df_tidy_log2,file = "df_tidy_log2_dep0375_15.csv")
